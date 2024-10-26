@@ -4,6 +4,7 @@
 #include <netinet/in.h> // for sockaddr_in, AF_INET...
 #include <arpa/inet.h>  // for inet_ntoa
 #include <unistd.h>     // for close()
+#include <cstring>      // might need for older g++ version to use memset()
 
 // Main
 // argv[0] for executable, argv[1] for port
