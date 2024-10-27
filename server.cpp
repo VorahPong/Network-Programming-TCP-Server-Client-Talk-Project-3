@@ -90,9 +90,8 @@ int main (int argc, char ** argv) {
         }
         // if bytes is positive then the client send something
         // show client message
-        std::cout << "Client: ";
-        printf("%s", buffer); // use printf() on buffer because it gives weird symbol in ada terminal
-        std::cout << std::endl; 
+        buffer[bytes_received] = '\0';
+        std::cout << "Client: " << buffer << std::endl; 
 
         // send back message to client
         char message[1024];

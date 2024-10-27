@@ -76,10 +76,8 @@ int main (int argc, char ** argv) {
             break;
         }
         
-        // buffer[bytes_received] = '\0';
-        std::cout << "Server: ";
-        printf("%s", buffer); // use printf() because it gives weird "%%%%%" in ada terminal
-        std::cout << std::endl;
+        buffer[bytes_received] = '\0';
+        std::cout << "Server: " << buffer << std::endl;
         memset(buffer, 0, BUFFLEN);
     }
 
