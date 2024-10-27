@@ -25,7 +25,7 @@ int main (int argc, char ** argv) {
         exit(1);
     }
 
-    // Set server address
+    // Set port
     int port = atoi(argv[1]);   // get server port in argv[1] since argv[0] is for the name of executable
     struct sockaddr_in address;
     memset(&address, 0, sizeof(address)); // clear address for safety

@@ -3,7 +3,7 @@ Developed by VorahPong, Mean
 Date 10/27/2024
 
 * Overview
-The purpose of this code is to demonstrate the TCP socket functions and data exchanging through a socket.
+The purpose of this code is to demonstrate the TCP socket functions and data exchanging through sockets.
 
 * Features
 The two programs client and server allowed two computers to talk to each other. The server will automatically shutdown when client disconnected.
